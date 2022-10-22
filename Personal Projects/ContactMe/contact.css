@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+body {
+  background-image: url(../images/black\ background.webp);
+}
+/*Navigation*/
+nav.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navigation {
+  background-color: rgb(24, 24, 24);
+  height: 4em;
+}
+.logo {
+  display: inline;
+  float: left;
+  margin: 1em;
+}
+.search {
+  display: inline-block;
+  margin-top: 1em;
+}
+.search-input {
+  color: black;
+  height: 30px;
+  width: 200px;
+  border-radius: 15%;
+}
+.nav-links-div {
+  float: right;
+  margin-top: 1.3em;
+}
+.nav-links {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin-right: 1em;
+}
+.nav-links:hover {
+  color: rgb(52, 83, 239);
+}
+.profile-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline;
+  float: right;
+  margin: 0.5em;
+}
+/*Navigation*/
+/*ContactMe*/
+.contact-me-box {
+  background-color: rgba(112, 27, 94, 1);
+  height: 400px;
+  width: 800px;
+  border-radius: 10%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-me-title {
+  text-align: center;
+  padding-top: 10px;
+}
+/*ContactMe*/

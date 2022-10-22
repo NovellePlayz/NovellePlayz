@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+body {
+  background-image: url(../images/black\ background.webp);
+}
+/*Navigation*/
+nav.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navigation {
+  background-color: rgb(24, 24, 24);
+  height: 4em;
+}
+.logo {
+  display: inline;
+  float: left;
+  margin: 1em;
+}
+.search {
+  display: inline-block;
+  margin-top: 1em;
+}
+.search-input {
+  color: black;
+  height: 30px;
+  width: 200px;
+  border-radius: 15%;
+}
+.nav-links-div {
+  float: right;
+  margin-top: 1.3em;
+}
+.nav-links {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin-right: 1em;
+}
+.nav-links:hover {
+  color: rgb(52, 83, 239);
+}
+.profile-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline;
+  float: right;
+  margin: 0.5em;
+}
+/*Navigation*/
+.Calculator-Background {
+  margin: auto;
+  background-color: black;
+  width: 360px;
+  height: 550px;
+}
+.display {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.3);
+  margin: 5px 10px 5px 5px;
+  width: 350px;
+  height: 100px;
+  text-align: right;
+  font-size: 60px;
+  vertical-align: bottom;
+  line-height: 140px;
+}
+.numbers {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50%;
+  border-radius: 50%;
+  margin: 5px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+.number-0 {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50%;
+  border-radius: 20%;
+  margin: 5px;
+  width: 165px;
+  height: 75px;
+  display: inline-block;
+}
+.operation {
+  color: white;
+  background-color: rgb(255, 94, 0);
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50%;
+  border-radius: 50%;
+  margin: 5px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+.clear {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50%;
+  border-radius: 50%;
+  margin: 5px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+.decimal {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50%;
+  border-radius: 50%;
+  margin: 5px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+.equal {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50%;
+  border-radius: 50%;
+  margin: 5px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
